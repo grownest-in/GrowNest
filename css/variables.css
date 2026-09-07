@@ -1,0 +1,82 @@
+/* GrowNest - Modern Dark Purple & Emerald Design System */
+:root {
+  /* Color Palette - Dark Purple & Slate Backgrounds */
+  --bg-darkest: #07040d;
+  --bg-primary: #0d0718;
+  --bg-secondary: #140c24;
+  --bg-tertiary: #1c1132;
+  --bg-card: rgba(24, 15, 41, 0.72);
+  --bg-card-hover: rgba(35, 22, 60, 0.85);
+  --bg-glass: rgba(18, 10, 31, 0.68);
+  --bg-charcoal: #121318;
+  --bg-green-tint: rgba(16, 185, 129, 0.04);
+  --bg-purple-tint: rgba(139, 92, 246, 0.06);
+
+  /* Green Accent Colors */
+  --accent-emerald: #10b981;
+  --accent-emerald-hover: #059669;
+  --accent-emerald-light: #34d399;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.35);
+  --accent-sage: #86efac;
+  --accent-forest: #064e3b;
+  --accent-mint: #a7f3d0;
+
+  /* Purple Accent & Lavender Glows */
+  --accent-purple: #8b5cf6;
+  --accent-purple-light: #c084fc;
+  --accent-lavender: #ddd6fe;
+  --accent-purple-glow: rgba(139, 92, 246, 0.3);
+
+  /* Status Colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #38bdf8;
+
+  /* Typography Colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --text-emerald: #34d399;
+  --text-purple: #c084fc;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-purple: rgba(167, 139, 250, 0.18);
+  --border-green: rgba(16, 185, 129, 0.28);
+  --border-focus: rgba(16, 185, 129, 0.7);
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.6);
+  --shadow-green-glow: 0 0 28px rgba(16, 185, 129, 0.25);
+  --shadow-purple-glow: 0 0 35px rgba(139, 92, 246, 0.22);
+  --glass-blur: blur(16px);
+
+  /* Typography */
+  --font-heading: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --trans-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --trans-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --trans-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
